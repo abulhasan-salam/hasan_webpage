@@ -1,0 +1,133 @@
+.abt_con
+{
+    /* border: red solid 1px; */
+    margin-top: 50px;
+    padding: 20px 30px;
+}
+.abt_list h2{
+    color: rgb(78, 153, 153);
+}
+.abt_list
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    /* border: red solid 1px; */
+}
+.abt_content
+{
+    border-radius: 8px;
+    margin: 10px ;
+    padding: 20px;
+    list-style: none;
+    height: auto;
+    width: 42%;
+    line-height: 1.5;
+    background-color: rgba(47, 46, 46, 0.447);
+}
+.above_p h1
+{
+    color: rgb(87, 182, 230);
+    padding-left: 40px;
+}
+.above_p p
+{
+    font-size: 18px;
+    color: rgb(171, 213, 219);
+    line-height: 1.5;
+    padding: 0px 40Px;
+    /* border: red solid 1px; */
+}
+.below_p h2
+{
+    color: rgb(227, 67, 67);
+}
+.below_p
+{
+    font-size: 18px;
+    color: rgb(171, 213, 219);
+    line-height: 1.5;
+    padding: 10px 40Px;
+    text-align: center;
+}
+.btn_abt
+{
+    display: flex;
+    justify-content: center;
+    /* border: red solid 1px; */
+}
+@media(max-width:700px)
+{
+    .abt_list
+    {
+        width: 90%;
+        padding: 15px;
+        /* border: red solid 1px; */
+        display: block;
+     
+    }
+    .abt_content
+    {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .above_p
+    {
+       
+        /* border: rgb(4, 255, 0) solid 1px; */
+        padding: 0px;
+        margin: 0px;
+    }
+    .above_p h1
+    {
+        word-wrap: break-word;
+        padding: 0px;
+        margin-left: 30px;
+        font-size: 26px;
+    }
+    .above_p p 
+    {
+        font-size: 16px;
+        padding: 0px;
+        padding: 0px 30px;
+    }
+    .abt_con
+    {
+        margin: 0px;
+        padding: 0px;
+        /* border: red solid 1px; */
+    }
+    .abt_content
+    {
+        text-align: center;
+        font-size: small;
+        padding: 10px 2px;
+        /* border: red solid 1px; */
+    }
+    .abt_content h2
+    {
+        padding: 0px 10px;
+    }
+    .below_p 
+{
+    padding:0px 10px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+    .abt_content ul 
+    {
+        padding: 0px 25px;
+    }
+    .abt_content ul li
+    {
+        text-align:start;
+        font-size: 12px;
+        padding: 2px;
+        /* border: red solid 1px; */
+    }
+    
+}

@@ -1,0 +1,139 @@
+.hex
+{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(98, 114, 128, 0.209) 0%, rgba(52, 63, 51, 0.294) 90.1% );   display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in;
+}
+.hex:hover
+{
+    transform: scale(1.2);
+    background-image: linear-gradient( 259.6deg,  rgba(15, 2, 2, 0.683) 11.2%,  #1f527a 91.1% );
+    
+
+}
+.skill_img
+{
+    width: 80px;
+    height: auto;
+    /* border: red solid 1px; */
+}
+.skill_section
+{
+    padding: 50px;
+    margin-top: 20px;
+    display: flex;
+
+}
+.expertise_con
+{
+    width: 70%;
+    margin-left: 60px;
+    border-radius: 8px;
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: column;
+    padding:45px;
+    justify-content:space-between;
+    background-image: linear-gradient( 259.6deg,  rgba(15, 2, 2, 0.683) 11.2%,  #1f527a 91.1% );
+}
+.skill_heading
+{
+    margin: 0px;
+    /* border: red solid 1px; */
+}
+.html_card
+{
+}
+.icons_sec
+{
+    /* border: red solid 1px; */
+}
+.duration_skill
+{
+    display: flex;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.41);
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.hov_img_con
+{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.logo_fade
+{
+    width:330px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+.skill_des
+{
+    padding: 0px;
+    line-height: 1.5;
+    color: rgba(240, 248, 255, 0.536);
+}
+.skill
+{
+    
+    /* border: red solid 1px; */
+    color: orange;
+}
+@media (max-width:700px) {
+    .skill_section
+    {
+        display: block;
+        margin: 10px;
+        padding: 15px;
+        /* border: red solid 1px; */
+    }
+    .skill_img
+    {
+       width: 68%;
+    }
+    .skill_heading
+    {
+        padding: 5px 10px;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .skill
+    {
+        padding: 0px 10px;
+    }
+    .skill_des
+    {
+        padding: 0px 10px;
+    }
+    .expertise_con
+    {
+       width: 100%;
+       /* border: red solid 1px; */
+       margin: 0px;
+       margin-top: 50px;
+       padding: 0px;
+    }
+    .html_card
+    {
+        padding: 0px;
+    }
+    .duration_skill
+    {
+        margin: 10px;
+        /* border: red solid 1px; */
+        display: block;
+        font-size: 12px;
+        padding: 1px 10px;
+    }
+    .logo_fade
+    {
+        width: 70%;
+        opacity: 0.16;
+    }
+
+    
+}
+
